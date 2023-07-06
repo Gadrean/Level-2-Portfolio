@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gallery</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/page.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/gallery.css ">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<nav>
+			<ul class="nav" id="mynav" >
+				 <li><h1>Gideon Wilkins Level 2 Portfolio</h1></li>
+  				 <li class="a"><a href="index.html"><h1>Home Page</h1></a></li>
+				 <li class="a"><a class="active" href="gallery.html"><h1>Gallery</h1></a></li>
+				 <li class="dropdown">
+					<a href="artistModel.html" class="dropbtn"><h1>Artist Models</h1></a>
+					 <div class="dropdown-content">
+						<a class="drop" href="artistModel.html#Shaun">Shaun Tan</a>
+						<a class="drop" href="artistModel.html#Josh">Josh Keyes</a>
+						<a class="drop" href="artistModel.html#Meghan">Meghan Howland</a>
+					  </div>
+				 </li>
+				 <li><a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()"><h1>&#9776;</h1></a></li>
+			</ul> 
+		</nav>
+		<main>
+			<div class="content">
+				<div>
+				<h2>My Portfolio Gallery</h2>
+				 <a href="bigimg/pencils.jpg"><img class="wide" src="images/pencils.jpg" alt="4 penicil drawings,a self portrait, an hourglass surrounded by graves, a redpanda and two barn owls, a jewelery box"></a>
+				 <div class="row">
+						<div class="column">
+							 <a href="bigimg/orca.jpg"><img src="images/orca.jpg" alt="study/copy of a painting by Shaun Tan of an orca flying above a city"></a>
+							 <a href="bigimg/gravepanda.jpg"><img src="images/gravePanda.jpg" alt="painting of a redpanda next to a grave, city lights in the background"></a>
+							 <a href="bigimg/leftbear.jpg"><img src="images/leftbear.jpg" alt="painting of a red panda arms raised city lights in background"></a>
+					</div>
+					<div class="column">
+						 <a href="bigimg/owlmoon.jpg"><img src="images/owlmoon.jpg" alt="painting of Barn owl landing on a cross"></a>
+						 <a href="bigimg/sandOwl.jpg"><img src="images/sandOwl.jpg" alt="a barn owl turning into sand wings pointing up"></a>
+						 <a href="bigimg/fighting.jpg"><img src="images/fighting.jpg" alt="Red pand a reaching for a stone hourglass in the claws of a owl"></a>
+					</div>
+					<div class="column">
+						 <a href="bigimg/owlrglass.jpg"><img src="images/owlrglass.jpg" alt="owl coming out of sand inside of an hourglass "></a>
+						 <a href="bigimg/coffin.jpg"><img src="images/coffin.jpg" alt="hourglass sitting atop a stone grave with an engraved red panda"></a>
+						 <a href="bigimg/bearwings.jpg"><img src="images/bearwings.jpg" alt="red panda with stone wings hills and streetligths in the background"></a>	
+					</div>
+					<div class="column">
+						 <a href="bigimg/redpanda.jpg"><img src="images/redpanda.jpg" alt="half a red panda face blending into blue night sky with street lights below"></a>
+						 <a href="bigimg/rightowl.jpg"><img src="images/rightowl.jpg" alt="Barn owl flying to the right through graveyard">	</a>
+					</div>
+				</div>
+				<a href="bigimg/final.jpg"><img class="wide" src="images/final.jpg" alt="landscape at sunrise with a large owl statue on a hill covered in graves"></a>
+				</div>
+			</div>
+		</main>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("mynav");
+			  if (x.className === "nav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "nav";
+			  }
+			}
+		</script>
+	</body>
+</html>

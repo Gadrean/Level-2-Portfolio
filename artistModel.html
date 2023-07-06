@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Artist Models</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/page.css">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<nav>
+			<ul class="nav" id="mynav" >
+				 <li><h1>Gideon Wilkins Level 2 Portfolio</h1></li>
+				 <li class="a"><a href="index.html"><h1>Home Page</h1></a></li>
+				 <li class="a"><a href="gallery.html"><h1>Gallery</h1></a></li>
+				 <li class="dropdown">
+					<a href="artistModel.html" class="dropbtn active"><h1>Artist Models</h1></a>
+					 <div class="dropdown-content">
+						<a class="drop" href="artistModel.html#Shaun">Shaun Tan</a>
+						<a class="drop" href="artistModel.html#Josh">Josh Keyes</a>
+						<a class="drop" href="artistModel.html#Meghan">Meghan Howland</a>
+					  </div>
+				 </li>
+				 <li><a href="javascript:void(0);" style="font-size:14px;" class="icon" onclick="myFunction()"><h1>&#9776;</h1></a></li>
+			</ul> 
+		</nav>
+		<main>
+		<div class="content">
+		<div id="Shaun">
+		<div>
+		<h2>Shaun Tan</h2>
+		<p>I chose Shaun Tan as my artist model because I liked the way he used the texture of his brush in his paintings, he barely ever has flat colours there are always variations in his colour.</p>
+		<a href="http://www.shauntan.net/"><img class="model" src="images/Shaun.jpg" alt="A Painting by Shaun Tan of a skull in a garden with floral patterns painted on it with a dark sky in the background"></a>	
+		</div>
+		<div id="Josh">
+		<h2>Josh Keyes</h2>
+		<p>I chose Josh Keyes as my second artist model because of his realistic style, his use of main central subjects in his paintings, and mainly his interesting subject matter.</p>
+		<a href="https://www.joshkeyes.net/" ><img class="model" src="images/Josh.jpg" alt="Painting by Josh keyes of a dark bull running ashore with a burning ship in the background"></a>
+		</div>
+		<div id="Meghan">
+		<h2>Meghan Howland</h2>
+		<p>Meghan Howland is my third artist model for similar reasons to Shaun Tan, her use of texture and colour variation and contrast.</p>
+		<a href="https://www.meghanhowland.com/" ><img class="model" src="images/Meghan.jpg" alt="portrait painting by Meghan Howland of a womans head and shoulders with black and red feathered birds flying around and partially covering it"></a>
+		</div>
+		</div>
+		</div>
+		</main>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("mynav");
+			  if (x.className === "nav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "nav";
+			  }
+			}
+		</script>
+	</body>
+</html>
